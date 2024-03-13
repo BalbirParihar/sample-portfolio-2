@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="My portfolio website to showcase the work I have done so far, the services I provided and all my professional life." />
+    <meta name="keywords" content="HTML, CSS, JavaScript, portfolio Website"/>
+    <meta name="author" content="Balbir Parihar"/>
+    <title>Portfolio Website</title>
+    <link rel="shortcut icon" href="./Assets/icons/favicon.ico" type="image/x-icon">
+    <!-- bar icon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css style -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- swiper styling link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Work+Sans:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <!-- javascript link -->
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <img src="./Assets/portfolio.png" alt="portfolio logo" class="logo" />
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="#" class="navbar-link home-link">Home</a></li>
+                <li><a href="./about.html" class="navbar-link about-link">About</a></li>
+                <li><a href="./service.html" class="navbar-link service-link">Services</a></li>
+                <li><a href="#" class="navbar-link portfolio-link">Portfolio</a></li>
+                <li><a href="./contact.html" class="navbar-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon class="mobile-nav-icon " name="menu-outline"></ion-icon>
+            <ion-icon class="mobile-nav-icon " name="close-outline"></ion-icon>
+        </div>
+    </header>
+    <!-- Hero section Start -->
+    <main>
+        <section class="section-hero section">
+            <div class="container grid grid-two-column">
+                <!-- hero text -->
+                <div class="section-hero-data">
+                    <p class="hero-top-data">this is me</p>
+                    <h1 class="hero-heading">Balbir Parihar</h1>
+                    <p class="hero-para para">A Frontend Web Developer</p>
+                    <div><a href="#" class="btn hireme-btn">Hire me</a></div>
+                </div>
+                <!-- hero img -->
+                <div class="section-hero-image">
+                    <img src="./Assets/hero.jpg" alt="hero-image" class="hero-img" />
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Hero section End -->
+
+    <!-- Bio Section Start -->
+    <section class="section-biodata section">
+        <div class="container grid grid-two-column">
+            <!-- image left -->
+            <div class="bio-image">
+                <img class="lazy-img" src="./Assets/biodata.jpg" data-src="./Assets/biodata.jpg" alt="Bio-Image"
+                    loading="lazy" />
+            </div>
+            <!-- right-content-->
+            <div class="bio-data">
+                <h2 class="common-heading">my bio-data</h2>
+                <p class="para">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+                    iusto obcaecati nesciunt sunt, in quibusdam. Lorem ipsum dolor sit
+                    amet.
+                </p>
+                <br />
+                <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <div class="bio-data-stats">
+                    <div class="bio-stats">
+                        <h3>HTML</h3>
+                        <div class="bio-progress-bar bio-progress-1">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>CSS</h3>
+                        <div class="bio-progress-bar bio-progress-2">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>Javascript</h3>
+                        <div class="bio-progress-bar bio-progress-3">
+                            <span>45%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>Bootstrap</h3>
+                        <div class="bio-progress-bar bio-progress-4">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>MERN Stack</h3>
+                        <div class="bio-progress-bar bio-progress-5">
+                            <span>10%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bio-data-btn">
+                    <a href="#" class="btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Bio Data Section Ends -->
+
+    <!-- Portfolio section start -->
+    <section class="section section-portfolio" id="portfolio-section">
+        <div class="container">
+            <h2 class="common-heading">
+                Latest Work
+            </h2>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus in dolorum cupiditate
+                repellendus itaque est!</p>
+        </div>
+        <div class="p-btns">
+            <div class="btn p-btn" data-btn-num="1">Websites</div>
+            <div class="btn p-btn" data-btn-num="2">Youtube</div>
+            <div class="btn p-btn" data-btn-num="3">Design</div>
+        </div>
+        <div class="container grid grid-three-column portfolio-images">
+            <div class="img-overlay p-btn--1  ">
+                <img src="./Assets/projects/1.jpg" alt="my-work">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">Project-1</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--2 p-btn--2 ">
+                <img src="./Assets/projects/4.jpg" alt="my-work">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">Project-2</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--1  ">
+                <img src="./Assets/projects/3.jpg" alt="my-work">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">Project-3</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--3 ">
+                <img src="./Assets/projects/4.jpg" alt="my-work">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">Project-4</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--2  ">
+                <img src="./Assets/projects/5.jpg" alt="my-work">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">Project-5</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--2  ">
+                <img src="./Assets/projects/1.jpg" alt="my-work">
+                <div class="overlay">
+                    <a href="#" target="_blank" class="common-heading">Project-5</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section ends -->
+
+    <!-- work-counter section start -->
+    <section class="section section-work-data">
+        <div class="container grid grid-four-column">
+            <div>
+                <h2 class="counter-numbers" data-number="2000">
+                    0+
+                </h2>
+                <p>project completed</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="6000">
+                    0+
+                </h2>
+                <p>Happy client</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="5000">
+                    0+
+                </h2>
+                <p>cup of coffee</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="3000">
+                    0+
+                </h2>
+                <p>real professionals</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- work-counter section ends -->
+
+    <!-- our services section start -->
+    <section class="section section-services">
+        <div class="container">
+            <h2 class="common-heading">Services Offers</h2>
+            <p class=" para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio cum dolorum distinctio
+                ullam provident
+                porro?</p>
+        </div>
+
+        <!-- services offers card -->
+        <div class="container grid grid-three-column">
+            <div class="service-box">
+                <ion-icon name="desktop-sharp" class="service-icon"></ion-icon>
+                <h3>Web Design</h3>
+                <p class=" para">"It is not because things are difficult that we do not dare, it is because we do not
+                    dare that they
+                    are difficult"</p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="logo-react" class="service-icon"></ion-icon>
+                <h3>Web development</h3>
+                <p class=" para">"It is not because things are difficult that we do not dare, it is because we do not
+                    dare that they
+                    are difficult"</p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="camera-outline" class="service-icon"></ion-icon>
+                <h3>Photography</h3>
+                <p class=" para">"It is not because things are difficult that we do not dare, it is because we do not
+                    dare that they
+                    are difficult"</p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="phone-portrait-sharp" class="service-icon"></ion-icon>
+                <h3>mobile apps</h3>
+                <p class=" para">"It is not because things are difficult that we do not dare, it is because we do not
+                    dare that they
+                    are difficult"</p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="globe-outline" class="service-icon"></ion-icon>
+                <h3>apps interface</h3>
+                <p class=" para">"It is not because things are difficult that we do not dare, it is because we do not
+                    dare that they
+                    are difficult"</p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="image-sharp" class="service-icon"></ion-icon>
+                <h3>graphic design</h3>
+                <p class=" para">"It is not because things are difficult that we do not dare, it is because we do not
+                    dare that they
+                    are difficult"</p>
+            </div>
+        </div>
+    </section>
+    <!-- our services section end -->
+
+    <!-- our testimonial section start -->
+    <!-- Swiper -->
+    <section class="section section-testimonial">
+        <div class="container">
+            <h2 class="common-heading">Happy Clients</h2>
+        </div>
+    </section>
+    <div class="swiper mySwiper container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p class="para">Parihar: You know sometimes when I'm talking, my words can't keep up with my
+                        thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="./Assets/clients/a.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p class="para">Balbir Parihar</p>
+                        <p class="para">WebDeveloper</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p class="para">Parihar: You know sometimes when I'm talking, my words can't keep up with my
+                        thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="./Assets/clients/b.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p class="para">Balbir Parihar</p>
+                        <p class="para">WebDeveloper</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p class="para">Parihar: You know sometimes when I'm talking, my words can't keep up with my
+                        thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="./Assets/clients/c.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p class="para">Balbir Parihar</p>
+                        <p class="para">WebDeveloper</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p class="para">Parihar: You know sometimes when I'm talking, my words can't keep up with my
+                        thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="./Assets/clients/d.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p class="para">Balbir Parihar</p>
+                        <p class="para">WebDeveloper</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p class="para">Parihar: You know sometimes when I'm talking, my words can't keep up with my
+                        thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="./Assets/clients/e.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p class="para">Balbir Parihar</p>
+                        <p class="para">WebDeveloper</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p class="para">Parihar: You know sometimes when I'm talking, my words can't keep up with my
+                        thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="./Assets/clients/f.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p class="para">Balbir Parihar</p>
+                        <p class="para">WebDeveloper</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p class="para">Parihar: You know sometimes when I'm talking, my words can't keep up with my
+                        thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="./Assets/clients/g.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p class="para">Balbir Parihar</p>
+                        <p class="para">WebDeveloper</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide">
+                <div class="swiper-client-msg">
+                    <p class="para">Parihar: You know sometimes when I'm talking, my words can't keep up with my
+                        thoughts. I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
+                    </p>
+                </div>
+                <div class="swiper-client-data grid grid-two-column">
+                    <figure>
+                        <img src="./Assets/clients/h.jpg" alt="client review">
+                    </figure>
+                    <div class="client-data-details">
+                        <p class="para">Balbir Parihar</p>
+                        <p class="para">WebDeveloper</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- our testimonial section end -->
+
+    <!-- Our freelancing section start -->
+    <section class="section section-freelancing">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>I am <span>available</span> for freelancing</h2>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur tempora accusantium
+            </p>
+            <a href="./contact.html" class="btn">Hire Me</a>
+        </div>
+    </section>
+    <!-- Our freelancing section end -->
+
+    <!-- contact us section start -->
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">Contact Us</h2>
+
+            <div class="section-contact-main contact-container">
+                <form action="https://formspree.io/f/myyqqdza" method="POST">
+                    <div class="grid grid-two-column">
+                        <div>
+                            <label for="username"></label>
+                            <input type="text" name="username" id="username" placeholder="Enter your name" required
+                                autocomplete="off">
+                        </div>
+                        <div>
+                            <label for="email"></label>
+                            <input type="email" name="email" id="email" placeholder="demo@mail.com" autocomplete="off"
+                                required>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <label for="subject"></label>
+                        <input type="text" name="subject" id="subject" placeholder="subject" autocomplete="off"
+                            required>
+                    </div>
+                    <div>
+                        <label for="textarea"></label>
+                        <textarea name="textarea" id="textarea" cols="30" rows="10" autocomplete="off"
+                            required></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" name="submit" id="submit" class="btn" value="Send Message">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact us section end -->
+
+    <!-- footer section start -->
+    <footer class="section section-footer">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>about</h3>
+                <p class="para">We have tested a number of registry fix and clean utilities and present our top 3 list
+                    on our site
+                    for your convenience. Hope you like it.</p>
+
+            </div>
+            <!-- end -->
+            <div class="f-links">
+                <h3>links</h3>
+                <ul>
+                    <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">home</a>
+                    </li>
+                    <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">about</a>
+                    </li>
+                    <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">services</a>
+                    </li>
+                    <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">portfolio</a>
+                    </li>
+                    <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end -->
+            <div class="f-services">
+                <h3>services</h3>
+                <ul>
+                    <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">web-design</a>
+                    </li>
+                    <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">web development</a>
+                    </li>
+                    <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">mern stack</a>
+                    </li>
+                    <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">online classes</a>
+                    </li>
+                    <li>
+                        <span> <ion-icon name="arrow-forward-outline"></ion-icon></span>
+                        <a href="#">youtube course</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end -->
+            <div class="f-address">
+                <h3>have a question</h3>
+                <address>
+                    <div>
+                        <p class="para">
+                            <span> <ion-icon name="location-outline"></ion-icon> </span>
+                            chandigarh, India
+                        </p>
+                    </div>
+                    <div>
+                        <p class="para">
+                            <span> <ion-icon name="call-outline"></ion-icon> </span>
+                            <a href="tel:+918350948005">+91 8350948005</a>
+                        </p>
+                    </div>
+                    <div>
+                        <p class="para">
+                            <span> <ion-icon name="mail-outline"></ion-icon> </span>
+                            <a href="mailto:balbirparihar1111@gmail.com">balbirparihar1111@gmail.com</a>
+                        </p>
+                    </div>
+                </address>
+            </div>
+            <!-- end -->
+        </div>
+
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="#" target="_blank">
+                    <ion-icon class="icons" name="logo-instagram"></ion-icon>
+                </a>
+                <a href="#" target="_blank">
+                    <ion-icon class="icons" name="logo-discord"></ion-icon>
+                </a>
+                <a href="#" target="_blank">
+                    <ion-icon class="icons" name="logo-youtube"></ion-icon>
+                </a>
+            </div>
+            <div class="f-credits">
+                <p>Copyright &copy;2023 All rights reserved | This template is made with ❤ by Balbir Parihar</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+
+    <!-- ionicons link -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- swiper javascript link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>
